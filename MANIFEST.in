@@ -1,0 +1,3 @@
+include versioneer.py
+include src/btq/_version.py
+include src/btq/network/*

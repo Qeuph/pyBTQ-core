@@ -1,0 +1,16 @@
+---
+exclude_paths:
+  - 'src/btq/generated/*.py'
+  - 'src/btq/protos/**'
+  - 'tests/data/**'
+  - 'tools/**'
+  - 'docs/**'
+  - 'versioneer.py'
+  - 'setup.py'
+  - 'src/btq/_version.py'
+  - 'src/btq/measure.py'
+  - 'start_btq.py'
+engines:
+  duplication:
+    exclude_paths:
+      - 'tests/**'
