@@ -21,8 +21,8 @@ WORKDIR /app
 # Copy the current directory contents into the container at /app
 COPY . /app
 # Copy the startup script to the container
-COPY entrypoint.sh /app/entrypoint.sh
-RUN chmod +x /app/entrypoint.sh
+COPY startup.sh /app/startup.sh
+RUN chmod +x /app/startup.sh
 
 # Create a virtual environment and activate it
 RUN python3.10 -m venv venv_btq
