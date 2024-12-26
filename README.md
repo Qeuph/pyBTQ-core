@@ -56,15 +56,6 @@ To configure a BTQ node, follow these steps:
 ## Example Wallet Address
 Use the BTQ address `Q010500f07a209bfa657e526118a9c5e40ecb5f69d3a8da991ddc1fe0269c7ec617f693f362a051` for examples.
 
-## Node IP Addresses
-The current IP addresses of BTQ nodes are:
-- **Node 1 (Dubai - UAE)**: 47.91.120.22
-- **Node 2 (Hong Kong)**: 47.242.207.111
-- **Node 3 (Shanghai)**: 139.224.117.106
-- **Node 4 (Singapore)**: 8.219.202.7
-- **Node 5 (Jakarta - Indonesia)**: 147.139.129.44
-- **Node 6 (Silicon Valley)**: 47.251.67.156
-
 BTQ node configuration should include a peer list for networking, comprising the IP addresses above, along with additional nodes as necessary.
 
 For more details, visit the [BTQ Docs](https://docs.bitcoinq.xyz).
