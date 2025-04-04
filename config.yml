@@ -1,0 +1,7 @@
+# --------------------------------------
+#    Mining Configuration
+# --------------------------------------
+mining_enabled: True
+mining_address: 'Q010500440632da0dbfa4964b15c303a4b589864dafde7ec03597af07d6bf3d38725afd443c109f'
+mining_thread_count: 0  # 0 to auto detect thread count based on CPU/GPU number of processors
+#
